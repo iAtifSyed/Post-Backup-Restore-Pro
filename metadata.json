@@ -1,0 +1,6 @@
+{
+  "name": "Post Backup & Restore Pro Hub",
+  "description": "Premium WordPress post and media content migration plugin, complete with interactive WP Admin simulator, AI post generator, and direct codebase export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

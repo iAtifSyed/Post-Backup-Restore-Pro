@@ -1,0 +1,22 @@
+{
+  "name": "iatifsyed/post-backup-restore-pro",
+  "description": "High-performance WordPress plugin to export and restore selected posts, media files, and SEO metadata into a single secure ZIP file.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Atif Syed",
+      "email": "aliasgharswl101@gmail.com",
+      "homepage": "http://iatifsyed.github.io/"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PostBackupRestorePro\\": "./"
+    }
+  }
+}
