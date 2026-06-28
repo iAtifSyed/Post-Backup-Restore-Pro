@@ -422,7 +422,7 @@ Export posts created today, yesterday, last week, last month, or within a custom
 **📌 Post Type**
 Supports: Posts, Pages, Custom Post Types, WooCommerce Products (future support), Portfolio Items, Testimonials, and Events.
 
-**Screenshot:** ![Advanced Filters](assets/screenshot-3.png)
+**Screenshot:** ![Advanced Filters](assets/.aistudio/selected_posts_export.png)
 
 *Description:* Advanced filtering allows administrators to export only the content they need, significantly reducing backup size and improving migration efficiency.
 
@@ -438,7 +438,7 @@ Features include:
 - Scrollable Container
 - Clean WordPress UI
 
-**Screenshot:** ![Category Grid](assets/screenshot-4.png)
+**Screenshot:** ![Category Grid](assets/.aistudio/selected_posts_export.png)
 
 ### ⚡ Applying Filters
 
@@ -479,7 +479,7 @@ The plugin automatically performs the following operations:
 8. Compresses files
 9. Creates ZIP archive
 
-**Screenshot:** ![Backup Progress](assets/screenshot-5.png)
+**Screenshot:** ![Backup Progress](assets/.aistudio/backup_progress.png)
 
 ### 📥 Download Backup
 
@@ -515,7 +515,7 @@ The Backup History page lists:
 - Restore
 - Delete
 
-**Screenshot:** ![Backup History](assets/screenshot-6.png)
+**Screenshot:** ![Backup History](assets/.aistudio/generated_backup.png)
 
 ### 📥 Import Backup
 
@@ -531,7 +531,7 @@ Supported formats include:
 - JSON (optional)
 - Future archive formats
 
-**Screenshot:** ![Import](assets/screenshot-7.png)
+**Screenshot:** ![Import](assets/.aistudio/backup-dashboard.png)
 
 ### 🔄 Import Process
 
@@ -606,7 +606,7 @@ Typical configuration options include:
 - Execution Timeout
 - AJAX Processing
 
-**Screenshot:** ![Settings](assets/screenshot-9.png)
+**Screenshot:** ![Settings](assets/.aistudio/setting_page.png)
 
 ### 📜 Activity Logs
 
@@ -625,7 +625,7 @@ Logs include:
 - File Operations
 - Security Events
 
-**Screenshot:** ![Logs](assets/screenshot-10.png)
+**Screenshot:** ![Logs](assets/.aistudio/log.png)
 
 ### 📱 Responsive Design
 
