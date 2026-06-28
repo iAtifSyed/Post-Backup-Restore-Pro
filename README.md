@@ -1,3 +1,4 @@
+```markdown
 # Post Backup & Restore Pro
 
 <p align="center">
@@ -1414,4 +1415,60 @@ If this project has helped you:
 - 🔀 Submit pull requests
 - 📢 Share it with the WordPress community
 
-Your support helps
+Your support helps improve the project and motivates future development.
+
+---
+
+## 📅 Version Information
+
+| Property | Value |
+|----------|--------|
+| Plugin Name | Post Backup & Restore Pro |
+| Current Version | 1.0.0 |
+| Stable Release | Yes |
+| License | GPL v2 or later |
+| Requires PHP | 7.4+ |
+| Requires WordPress | 6.2+ |
+| Text Domain | post-backup-restore-pro |
+| Translation Ready | Yes |
+| Responsive | Yes |
+| Accessibility Ready | Yes |
+
+---
+
+## 🚀 Future Vision
+
+Our mission is to make **Post Backup & Restore Pro** the most reliable, secure, and developer-friendly WordPress content migration solution available.
+
+Future releases will focus on:
+- Cloud Backup Providers
+- Scheduled & Incremental Backups
+- One-Click Site Migration
+- WP-CLI Integration
+- REST API
+- WooCommerce Migration
+- Enterprise Backup Management
+- Remote Backup Monitoring
+- Team Collaboration Features
+- AI-Assisted Backup Analysis
+
+---
+
+## ❤️ Thank You
+
+Thank you for choosing **Post Backup & Restore Pro**.
+
+Whether you're managing a personal blog, a business website, or hundreds of client installations, we hope this plugin makes your backup and migration workflow faster, safer, and more reliable.
+
+---
+
+<p align="center">
+
+**Made with ❤️ by Atif Syed**
+
+*Full Stack WordPress Developer • Plugin Architect • Ecommerce Specialist*
+
+⭐ If you like this project, don't forget to star the repository!
+
+</p>
+```
