@@ -332,8 +332,8 @@ Tools
 
 | Screenshot                 | Description                  |
 | -------------------------- | ---------------------------- |
-| `assets/.aistudio/generated_backup.png`  | Dashboard overview           |
-| `assets/.aistudio/export_dashboard.png`  | Export Posts page            |
+| `assets/.aistudio/backup-dashboard.png`  | Dashboard overview           |
+| `assets/.aistudio/backup-dashboard.png`  | Export Posts page            |
 | `assets/.aistudio/selected_posts_export.png`  | Advanced search & filters    |
 | `assets/.aistudio/selected_posts_export.png`  | Category selection interface |
 | `assets/.aistudio/backup_progress.png`  | Backup generation progress   |
@@ -379,7 +379,7 @@ It displays:
 - Latest Restore Logs
 - Quick Action Buttons
 
-**Screenshot:** ![Dashboard](assets/screenshot-1.png)
+**Screenshot:** ![Dashboard](assets/.aistudio/backup-dashboard.png)
 
 *Description:* The Dashboard serves as the central control panel for managing backups, imports, restores, and plugin settings.
 
@@ -392,7 +392,7 @@ Navigate to:
 Tools → Post Backup & Restore Pro → Export Posts
 ```
 
-**Screenshot:** ![Export Posts](assets/screenshot-2.png)
+**Screenshot:** ![Export Posts](assets/.aistudio/selected_posts_export.png)
 
 #### Available Export Filters
 
