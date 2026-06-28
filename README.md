@@ -1,4 +1,3 @@
-```markdown
 # Post Backup & Restore Pro
 
 <p align="center">
@@ -1471,4 +1470,3 @@ Whether you're managing a personal blog, a business website, or hundreds of clie
 ⭐ If you like this project, don't forget to star the repository!
 
 </p>
-```
