@@ -1,7 +1,7 @@
 # Post Backup & Restore Pro
 
 <p align="center">
-  <img src="assets/banner-1544x500.png" alt="Post Backup & Restore Pro" width="100%">
+  <img src="assets/.aistudio/banner-1544x500.png" alt="Post Backup & Restore Pro" width="100%">
 </p>
 
 <p align="center">
