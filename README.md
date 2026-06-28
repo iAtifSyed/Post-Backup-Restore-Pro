@@ -332,16 +332,16 @@ Tools
 
 | Screenshot                 | Description                  |
 | -------------------------- | ---------------------------- |
-| `assets/screenshot-1.png`  | Dashboard overview           |
-| `assets/screenshot-2.png`  | Export Posts page            |
-| `assets/screenshot-3.png`  | Advanced search & filters    |
-| `assets/screenshot-4.png`  | Category selection interface |
-| `assets/screenshot-5.png`  | Backup generation progress   |
-| `assets/screenshot-6.png`  | Backup history               |
-| `assets/screenshot-7.png`  | Import backup screen         |
-| `assets/screenshot-8.png`  | Restore wizard               |
-| `assets/screenshot-9.png`  | Plugin settings              |
-| `assets/screenshot-10.png` | Activity logs                |
+| `assets/.aistudio/generated_backup.png`  | Dashboard overview           |
+| `assets/.aistudio/export_dashboard.png`  | Export Posts page            |
+| `assets/.aistudio/selected_posts_export.png`  | Advanced search & filters    |
+| `assets/.aistudio/selected_posts_export.png`  | Category selection interface |
+| `assets/.aistudio/backup_progress.png`  | Backup generation progress   |
+| `assets/.aistudio/generated_backup.png`  | Backup history               |
+| `assets/.aistudio/backup-dashboard.png`  | Import backup screen         |
+| `assets/.aistudio/screenshot-8.png`  | Restore wizard               |
+| `assets/.aistudio/setting_page.png`  | Plugin settings              |
+| `assets/.aistudio/log.png` | Activity logs                |
 
 ---
 
