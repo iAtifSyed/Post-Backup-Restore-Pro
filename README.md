@@ -1,4 +1,3 @@
-```markdown
 # Post Backup & Restore Pro
 
 <p align="center">
@@ -31,56 +30,56 @@ Designed with performance, scalability, and security in mind, Post Backup & Rest
 
 ---
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
-- About
-- Features
-- Why Choose This Plugin
-- Requirements
-- Installation
-- Quick Start
-- Screenshots
-- Usage Guide
-- Folder Structure
-- Plugin Architecture
-- Security
-- Performance
-- Frequently Asked Questions
-- Troubleshooting
-- Changelog
-- Roadmap
-- Contributing
-- Support
-- License
-- Credits
-- Author
+- [About](#-about)
+- [Features](#-key-features)
+- [Why Choose This Plugin](#-why-choose-post-backup--restore-pro)
+- [Requirements](#-system-requirements)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Screenshots](#-screenshots)
+- [Usage Guide](#-usage-guide)
+- [Folder Structure](#-folder-structure)
+- [Plugin Architecture](#-plugin-architecture)
+- [Security](#-security-architecture)
+- [Performance](#-performance-optimization)
+- [Frequently Asked Questions](#-frequently-asked-questions-faq)
+- [Troubleshooting](#-troubleshooting)
+- [Changelog](#-changelog)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [Support](#-support)
+- [License](#-license)
+- [Credits](#-credits)
+- [Author](#-author)
 
 ---
 
-# 📖 About
+## 📖 About
 
 Managing WordPress content across multiple websites can quickly become challenging. The default WordPress export tool offers only basic functionality and lacks advanced filtering, selective backups, metadata preservation, and professional migration capabilities.
 
 Post Backup & Restore Pro fills this gap by providing a complete backup and migration solution specifically focused on WordPress posts and their associated data.
 
-Whether you are:
+Whether you are a:
 
-- Website Owner
-- WordPress Agency
-- Freelancer
-- Developer
-- Content Publisher
-- Digital Marketing Company
-- Hosting Provider
-- Educational Institution
+- **Website Owner**
+- **WordPress Agency**
+- **Freelancer**
+- **Developer**
+- **Content Publisher**
+- **Digital Marketing Company**
+- **Hosting Provider**
+- **Educational Institution**
 
 this plugin helps you create reliable backup packages that can be restored safely on another WordPress installation.
 
 ---
 
-# ⭐ Key Features
+## ⭐ Key Features
 
-## Export Features
+### Export Features
 
 - ✅ Export unlimited posts
 - ✅ Export selected posts only
@@ -105,7 +104,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## Import Features
+### Import Features
 
 - ✅ Restore exported packages
 - ✅ Restore featured images
@@ -122,7 +121,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## Backup Features
+### Backup Features
 
 - ✅ One-click backup
 - ✅ ZIP archive generation
@@ -137,7 +136,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## Search & Filtering
+### Search & Filtering
 
 - ✅ Live keyword search
 - ✅ Category filtering
@@ -152,7 +151,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## User Interface
+### User Interface
 
 - ✅ Native WordPress Admin design
 - ✅ Fully responsive layout
@@ -167,7 +166,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## Developer Features
+### Developer Features
 
 - ✅ WordPress Coding Standards
 - ✅ Object-Oriented PHP
@@ -182,7 +181,7 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-## Security
+### Security
 
 - ✅ Nonce verification
 - ✅ Capability checks
@@ -197,37 +196,27 @@ this plugin helps you create reliable backup packages that can be restored safel
 
 ---
 
-# 💎 Why Choose Post Backup & Restore Pro?
+## 💎 Why Choose Post Backup & Restore Pro?
 
 ### 🚀 Enterprise Quality
 
 Built using modern software engineering practices suitable for enterprise WordPress projects.
 
----
-
 ### 🔒 Security First
 
 Every request is validated using WordPress security APIs, ensuring your data remains protected during export and restore operations.
-
----
 
 ### ⚡ Optimized Performance
 
 Handles large datasets efficiently through optimized database queries, batch processing, and memory-conscious operations.
 
----
-
 ### 🎨 WordPress Native Experience
 
 The user interface follows WordPress Core design principles, making it familiar, intuitive, and easy to use.
 
----
-
 ### 🧩 Modular Architecture
 
 Designed with a modular codebase that simplifies maintenance, future enhancements, and developer customization.
-
----
 
 ### 🌍 Migration Ready
 
@@ -235,24 +224,23 @@ Move content seamlessly between development, staging, and production environment
 
 ---
 
-# 📋 System Requirements
+## 📋 System Requirements
 
-| Requirement | Minimum |
-|------------|----------|
-| WordPress | 6.2+ |
-| PHP | 7.4+ |
-| MySQL | 5.7+ |
-| MariaDB | 10.3+ |
-| Memory Limit | 128 MB |
-| Recommended Memory | 256 MB |
-| Upload Limit | 64 MB+ |
-| HTTPS | Recommended |
+| Requirement          | Minimum        | Recommended    |
+|----------------------|----------------|----------------|
+| WordPress            | 6.2+           | 6.5+           |
+| PHP                  | 7.4+           | 8.1+           |
+| MySQL                | 5.7+           | 8.0+           |
+| MariaDB              | 10.3+          | 10.11+         |
+| Memory Limit         | 128 MB         | 256 MB         |
+| Upload Limit         | 64 MB+         | 256 MB+        |
+| HTTPS                | Not Required   | Recommended    |
 
 ---
 
-# 📦 Installation
+## 📦 Installation
 
-## Method 1 – Upload Plugin ZIP
+### Method 1 – Upload Plugin ZIP
 
 1. Download the plugin ZIP package.
 2. Log in to your WordPress Admin Dashboard.
@@ -265,47 +253,34 @@ Move content seamlessly between development, staging, and production environment
 
 ---
 
-## Method 2 – Manual Installation
+### Method 2 – Manual Installation
 
 1. Extract the plugin ZIP archive.
 2. Upload the plugin folder to:
-
-```
-
-/wp-content/plugins/
-
-```
-
+   ```
+   /wp-content/plugins/
+   ```
 3. Log in to WordPress.
-4. Open:
-
-```
-
-Plugins
-
-````
-
+4. Navigate to **Plugins**.
 5. Activate **Post Backup & Restore Pro**.
 
 ---
 
-## Method 3 – Git Clone
+### Method 3 – Git Clone
 
 ```bash
 git clone https://github.com/iAtifSyed/post-backup-restore-pro.git
-````
-
-Move the repository into:
-
-```
-wp-content/plugins/
 ```
 
-Activate from the WordPress Plugins page.
+Move the repository to:
+```
+/wp-content/plugins/
+```
+Activate the plugin from the WordPress Plugins page.
 
 ---
 
-# ⚙️ Initial Configuration
+## ⚙️ Initial Configuration
 
 After activation:
 
@@ -319,7 +294,7 @@ No complicated setup is required.
 
 ---
 
-# 🚀 Quick Start
+## 🚀 Quick Start
 
 Creating your first backup takes only a few steps:
 
@@ -335,7 +310,7 @@ Your backup is now ready for migration or restoration.
 
 ---
 
-# 📂 Default Plugin Menu
+## 📂 Default Plugin Menu
 
 ```
 Tools
@@ -351,7 +326,7 @@ Tools
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 > Screenshots are located inside the **assets/** directory.
 
@@ -370,42 +345,29 @@ Tools
 
 ---
 
-**Next:** Part 2 covers the complete **Usage Guide**, detailed screenshots with descriptions, Export & Import workflows, backup creation, restore process, and user tutorials.
-
-```
-```
-
-````markdown
-# 📖 Usage Guide
+## 📖 Usage Guide
 
 Post Backup & Restore Pro has been designed to provide a seamless backup and migration experience while maintaining the familiar look and feel of the WordPress Admin Dashboard.
 
----
-
-# 🚀 Getting Started
+### 🚀 Getting Started
 
 After activating the plugin:
 
 1. Login to your WordPress Dashboard.
 2. Navigate to:
-
-```
-Tools → Post Backup & Restore Pro
-```
-
+   ```
+   Tools → Post Backup & Restore Pro
+   ```
 3. Open the Dashboard.
 4. Verify your system requirements.
 5. Configure plugin settings if necessary.
 6. Start creating your first backup.
 
----
-
-# 🏠 Dashboard
+### 🏠 Dashboard
 
 The Dashboard provides an overview of your backup environment.
 
 It displays:
-
 - Plugin Version
 - WordPress Version
 - PHP Version
@@ -417,138 +379,58 @@ It displays:
 - Latest Restore Logs
 - Quick Action Buttons
 
-### Screenshot
+**Screenshot:** ![Dashboard](assets/screenshot-1.png)
 
-![Dashboard](assets/screenshot-1.png)
+*Description:* The Dashboard serves as the central control panel for managing backups, imports, restores, and plugin settings.
 
-**Description**
-
-The Dashboard serves as the central control panel for managing backups, imports, restores, and plugin settings.
-
----
-
-# 📤 Export Posts
+### 📤 Export Posts
 
 The Export Posts page allows you to generate highly customized backup packages using advanced filtering options.
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Export Posts
 ```
 
-### Screenshot
+**Screenshot:** ![Export Posts](assets/screenshot-2.png)
 
-![Export Posts](assets/screenshot-2.png)
+#### Available Export Filters
 
----
+**🔎 Keyword Search**
+Search posts using title, content, excerpt, or slug. Supports partial keyword matching.
 
-## Available Export Filters
-
-### 🔎 Keyword Search
-
-Search posts using:
-
-- Title
-- Content
-- Excerpt
-- Slug
-
-Supports partial keyword matching.
-
----
-
-### 📂 Categories
-
-Export one or multiple categories.
-
-Features include:
-
+**📂 Categories**
+Export one or multiple categories with features including:
 - Multi-selection
 - Select All
 - Clear All
 - Responsive category grid
 - Scrollable category list
 
----
+**🏷 Tags**
+Filter posts by one or more tags. Supports multiple tag selection, dynamic loading, and taxonomy preservation.
 
-### 🏷 Tags
+**👤 Author**
+Export posts created by a specific author, multiple authors (if enabled), or all authors.
 
-Filter posts by one or more tags.
+**📄 Post Status**
+Filter by: Published, Draft, Pending, Scheduled, Private, or Trash (optional).
 
-Supports:
+**📅 Date Range**
+Export posts created today, yesterday, last week, last month, or within a custom date range.
 
-- Multiple tag selection
-- Dynamic loading
-- Taxonomy preservation
+**📌 Post Type**
+Supports: Posts, Pages, Custom Post Types, WooCommerce Products (future support), Portfolio Items, Testimonials, and Events.
 
----
+**Screenshot:** ![Advanced Filters](assets/screenshot-3.png)
 
-### 👤 Author
+*Description:* Advanced filtering allows administrators to export only the content they need, significantly reducing backup size and improving migration efficiency.
 
-Export posts created by:
-
-- Specific Author
-- Multiple Authors (if enabled)
-- All Authors
-
----
-
-### 📄 Post Status
-
-Filter by:
-
-- Published
-- Draft
-- Pending
-- Scheduled
-- Private
-- Trash (optional)
-
----
-
-### 📅 Date Range
-
-Export posts created:
-
-- Today
-- Yesterday
-- Last Week
-- Last Month
-- Custom Date Range
-
----
-
-### 📌 Post Type
-
-Supports:
-
-- Posts
-- Pages
-- Custom Post Types
-- WooCommerce Products (future support)
-- Portfolio Items
-- Testimonials
-- Events
-
----
-
-### Screenshot
-
-![Advanced Filters](assets/screenshot-3.png)
-
-**Description**
-
-Advanced filtering allows administrators to export only the content they need, significantly reducing backup size and improving migration efficiency.
-
----
-
-# 📁 Category Selection
+### 📁 Category Selection
 
 The Category Selection interface has been redesigned using a responsive grid layout for better usability.
 
 Features include:
-
 - Responsive Grid
 - Searchable Categories (future)
 - Select All
@@ -556,36 +438,22 @@ Features include:
 - Scrollable Container
 - Clean WordPress UI
 
-### Screenshot
+**Screenshot:** ![Category Grid](assets/screenshot-4.png)
 
-![Category Grid](assets/screenshot-4.png)
+### ⚡ Applying Filters
 
----
-
-# ⚡ Applying Filters
-
-Once your filters are selected:
-
-Click:
-
-```
-Apply Filters
-```
+Once your filters are selected, click **Apply Filters**.
 
 The plugin will:
-
 - Validate user permissions
 - Verify security nonce
 - Process selected filters
 - Query matching posts
 - Display results instantly
 
----
-
-# 📋 Export Results
+### 📋 Export Results
 
 The filtered results display:
-
 - Post Title
 - Author
 - Category
@@ -596,49 +464,30 @@ The filtered results display:
 
 Bulk selection options allow users to export all displayed posts or selected entries only.
 
----
+### 📦 Generate Backup
 
-# 📦 Generate Backup
-
-After selecting posts:
-
-Click:
-
-```
-Generate Backup
-```
+After selecting posts, click **Generate Backup**.
 
 The plugin automatically performs the following operations:
+1. Collects post content
+2. Exports metadata
+3. Exports categories
+4. Exports tags
+5. Exports featured images
+6. Copies attachments
+7. Generates JSON package
+8. Compresses files
+9. Creates ZIP archive
 
-- Collects post content
-- Exports metadata
-- Exports categories
-- Exports tags
-- Exports featured images
-- Copies attachments
-- Generates JSON package
-- Compresses files
-- Creates ZIP archive
+**Screenshot:** ![Backup Progress](assets/screenshot-5.png)
 
----
+### 📥 Download Backup
 
-### Screenshot
-
-![Backup Progress](assets/screenshot-5.png)
-
----
-
-# 📥 Download Backup
-
-Once backup generation is complete:
-
-A secure download link becomes available.
+Once backup generation is complete, a secure download link becomes available.
 
 The generated ZIP archive typically contains:
-
 ```
 backup.zip
-
 ├── posts.json
 ├── metadata.json
 ├── taxonomy.json
@@ -648,18 +497,14 @@ backup.zip
 └── checksum.txt
 ```
 
----
-
-# 📚 Backup History
+### 📚 Backup History
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Backup History
 ```
 
 The Backup History page lists:
-
 - Backup Name
 - Creation Date
 - File Size
@@ -670,16 +515,11 @@ The Backup History page lists:
 - Restore
 - Delete
 
-### Screenshot
+**Screenshot:** ![Backup History](assets/screenshot-6.png)
 
-![Backup History](assets/screenshot-6.png)
-
----
-
-# 📥 Import Backup
+### 📥 Import Backup
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Import Posts
 ```
@@ -687,61 +527,36 @@ Tools → Post Backup & Restore Pro → Import Posts
 Upload a previously exported ZIP package.
 
 Supported formats include:
-
 - ZIP
 - JSON (optional)
 - Future archive formats
 
-### Screenshot
+**Screenshot:** ![Import](assets/screenshot-7.png)
 
-![Import](assets/screenshot-7.png)
-
----
-
-# 🔄 Import Process
+### 🔄 Import Process
 
 During import the plugin automatically:
-
 ✔ Validates ZIP integrity
-
 ✔ Reads manifest
-
 ✔ Imports posts
-
 ✔ Restores metadata
-
 ✔ Restores categories
-
 ✔ Restores tags
-
 ✔ Restores featured images
-
 ✔ Restores attachments
-
 ✔ Updates relationships
-
 ✔ Generates import log
 
----
-
-# 🔁 Restore Backup
+### 🔁 Restore Backup
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Restore
 ```
 
-Select an available backup.
-
-Click:
-
-```
-Restore Backup
-```
+Select an available backup and click **Restore Backup**.
 
 The plugin performs:
-
 - Backup validation
 - Compatibility checks
 - Duplicate detection
@@ -750,83 +565,57 @@ The plugin performs:
 - Metadata restoration
 - Final verification
 
-### Screenshot
+**Screenshot:** ![Restore Wizard](assets/screenshot-8.png)
 
-![Restore Wizard](assets/screenshot-8.png)
-
----
-
-# ⚙ Settings
+### ⚙ Settings
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Settings
 ```
 
 Typical configuration options include:
 
-### General
-
+**General:**
 - Backup Location
 - Temporary Directory
 - Cleanup Settings
 - Compression Level
 
----
-
-### Export
-
+**Export:**
 - Default Export Format
 - Include Media
 - Include Metadata
 - Include Comments
 
----
-
-### Import
-
+**Import:**
 - Duplicate Handling
 - Restore Media
 - Restore Authors
 - Restore Categories
 
----
-
-### Security
-
+**Security:**
 - Capability Checks
 - Nonce Validation
 - Upload Restrictions
 - File Validation
 
----
-
-### Performance
-
+**Performance:**
 - Batch Size
 - Memory Limit
 - Execution Timeout
 - AJAX Processing
 
----
+**Screenshot:** ![Settings](assets/screenshot-9.png)
 
-### Screenshot
-
-![Settings](assets/screenshot-9.png)
-
----
-
-# 📜 Activity Logs
+### 📜 Activity Logs
 
 Navigate to:
-
 ```
 Tools → Post Backup & Restore Pro → Logs
 ```
 
 Logs include:
-
 - Export Activity
 - Import Activity
 - Restore Activity
@@ -836,23 +625,17 @@ Logs include:
 - File Operations
 - Security Events
 
-### Screenshot
+**Screenshot:** ![Logs](assets/screenshot-10.png)
 
-![Logs](assets/screenshot-10.png)
-
----
-
-# 📱 Responsive Design
+### 📱 Responsive Design
 
 The plugin interface is fully responsive and optimized for:
-
 - Desktop Computers
 - Laptops
 - Tablets
 - Mobile Devices
 
 Responsive improvements include:
-
 - Flexible Grid Layouts
 - Responsive Forms
 - Mobile Navigation
@@ -860,12 +643,9 @@ Responsive improvements include:
 - Touch-Friendly Buttons
 - Optimized Scroll Areas
 
----
-
-# 💡 Best Practices
+### 💡 Best Practices
 
 To ensure reliable backups and smooth migrations:
-
 - Create backups before major website changes.
 - Store backup archives in multiple secure locations.
 - Verify backup integrity after creation.
@@ -873,9 +653,7 @@ To ensure reliable backups and smooth migrations:
 - Keep WordPress, themes, and plugins updated.
 - Regularly review backup history and remove obsolete archives to save storage.
 
----
-
-# 🔔 Tips
+### 🔔 Tips
 
 > **Tip:** Schedule regular backups to minimize the risk of data loss.
 
@@ -887,10 +665,7 @@ To ensure reliable backups and smooth migrations:
 
 ---
 
-**Next:** **Part 3** covers the plugin folder structure, architecture, database organization, coding standards, security model, performance optimizations, developer APIs, hooks, filters, and extension guidelines.
-````
-````markdown
-# 📁 Folder Structure
+## 📁 Folder Structure
 
 The plugin follows a modular architecture based on WordPress Coding Standards, making it easy to maintain, extend, and customize.
 
@@ -942,7 +717,7 @@ post-backup-restore-pro/
 
 ---
 
-# 🏗 Plugin Architecture
+## 🏗 Plugin Architecture
 
 Post Backup & Restore Pro follows a layered architecture to keep business logic separate from presentation and data processing.
 
@@ -975,111 +750,23 @@ Loader
  WordPress Database
 ```
 
----
+### 📦 Core Components
 
-# 📦 Core Components
+**Plugin Bootstrap:** Responsible for plugin initialization, constants, autoloading, hook registration, and dependency loading.
 
-## Plugin Bootstrap
+**Loader:** Manages WordPress Hooks, Filters, Admin Pages, AJAX Endpoints, Assets, and Menu Registration.
 
-Responsible for
+**Admin Module:** Handles the complete administration interface including Dashboard, Export Screen, Import Screen, Backup History, Restore Wizard, Settings, and Logs.
 
-- Plugin initialization
-- Constants
-- Autoloading
-- Hook registration
-- Dependency loading
+**Export Engine:** Responsible for generating backup packages. Features include Query Builder, Filter Processing, Metadata Collection, Attachment Collection, Featured Image Export, JSON Generation, ZIP Compression, and Manifest Creation.
 
----
+**Import Engine:** Restores exported packages safely. Features include ZIP Validation, Manifest Parsing, Duplicate Detection, Metadata Import, Media Restoration, Category Recreation, and Author Mapping.
 
-## Loader
+**Backup Manager:** Responsible for Backup Creation, Backup Storage, Backup Listing, Backup Deletion, Backup Downloads, and Storage Cleanup.
 
-The Loader manages:
+**Restore Engine:** Responsible for Package Validation, File Extraction, Database Restoration, Metadata Restoration, Attachment Restoration, and Final Verification.
 
-- WordPress Hooks
-- Filters
-- Admin Pages
-- AJAX Endpoints
-- Assets
-- Menu Registration
-
----
-
-## Admin Module
-
-Handles the complete administration interface.
-
-Responsibilities include:
-
-- Dashboard
-- Export Screen
-- Import Screen
-- Backup History
-- Restore Wizard
-- Settings
-- Logs
-
----
-
-## Export Engine
-
-The Export Engine is responsible for generating backup packages.
-
-Features include:
-
-- Query Builder
-- Filter Processing
-- Metadata Collection
-- Attachment Collection
-- Featured Image Export
-- JSON Generation
-- ZIP Compression
-- Manifest Creation
-
----
-
-## Import Engine
-
-The Import Engine restores exported packages safely.
-
-Features include:
-
-- ZIP Validation
-- Manifest Parsing
-- Duplicate Detection
-- Metadata Import
-- Media Restoration
-- Category Recreation
-- Author Mapping
-
----
-
-## Backup Manager
-
-Responsible for:
-
-- Backup Creation
-- Backup Storage
-- Backup Listing
-- Backup Deletion
-- Backup Downloads
-- Storage Cleanup
-
----
-
-## Restore Engine
-
-Responsible for:
-
-- Package Validation
-- File Extraction
-- Database Restoration
-- Metadata Restoration
-- Attachment Restoration
-- Final Verification
-
----
-
-# 🗄 Database Usage
+### 🗄 Database Usage
 
 The plugin minimizes database usage by leveraging WordPress core tables wherever possible.
 
@@ -1087,247 +774,125 @@ It primarily interacts with:
 
 | Table | Purpose |
 |--------|----------|
-| wp_posts | Posts |
-| wp_postmeta | Metadata |
-| wp_terms | Categories & Tags |
-| wp_term_taxonomy | Taxonomies |
-| wp_term_relationships | Relationships |
-| wp_users | Authors |
-| wp_options | Plugin Settings |
+| `wp_posts` | Posts |
+| `wp_postmeta` | Metadata |
+| `wp_terms` | Categories & Tags |
+| `wp_term_taxonomy` | Taxonomies |
+| `wp_term_relationships` | Relationships |
+| `wp_users` | Authors |
+| `wp_options` | Plugin Settings |
 
 No unnecessary custom database tables are created unless future extensions require them.
 
 ---
 
-# 🔒 Security Architecture
+## 🔒 Security Architecture
 
-Security is a core design principle.
+Security is a core design principle. Every operation undergoes multiple validation layers.
 
-Every operation undergoes multiple validation layers.
-
-## Authentication
-
+### Authentication
 - Logged-in users only
 - WordPress authentication
 - Capability verification
 
----
+### Authorization
+Role checks include Administrator, Super Admin, and Custom Capabilities. Unauthorized users cannot export, import, restore, or delete backups.
 
-## Authorization
+### Nonce Verification
+Every form submission includes WordPress Nonce, AJAX Nonce, and CSRF Protection.
 
-Role checks include:
+### Input Validation
+All incoming data is sanitized, validated, and escaped. Examples include Search Keywords, Categories, Tags, IDs, Dates, and File Uploads.
 
-- Administrator
-- Super Admin
-- Custom Capabilities
+### SQL Security
+Database queries use `$wpdb->prepare()`, safe placeholders, and WordPress APIs to prevent SQL Injection attacks.
 
-Unauthorized users cannot:
+### Output Escaping
+Every output is escaped using WordPress functions such as `esc_html()`, `esc_attr()`, `esc_url()`, and `wp_kses_post()`.
 
-- Export
-- Import
-- Restore
-- Delete backups
+### File Upload Security
+Uploaded files are verified for MIME Type, Extension, File Size, ZIP Integrity, and Upload Errors.
 
----
-
-## Nonce Verification
-
-Every form submission includes:
-
-- WordPress Nonce
-- AJAX Nonce
-- CSRF Protection
+### File System Protection
+The plugin prevents Directory Traversal, Unauthorized Downloads, Invalid File Access, and Unsafe Extraction.
 
 ---
 
-## Input Validation
-
-All incoming data is:
-
-- Sanitized
-- Validated
-- Escaped
-
-Examples include:
-
-- Search Keywords
-- Categories
-- Tags
-- IDs
-- Dates
-- File Uploads
-
----
-
-## SQL Security
-
-Database queries use:
-
-- `$wpdb->prepare()`
-- Safe placeholders
-- WordPress APIs
-
-This prevents SQL Injection attacks.
-
----
-
-## Output Escaping
-
-Every output is escaped using WordPress functions such as:
-
-- esc_html()
-- esc_attr()
-- esc_url()
-- wp_kses_post()
-
----
-
-## File Upload Security
-
-Uploaded files are verified for:
-
-- MIME Type
-- Extension
-- File Size
-- ZIP Integrity
-- Upload Errors
-
----
-
-## File System Protection
-
-The plugin prevents:
-
-- Directory Traversal
-- Unauthorized Downloads
-- Invalid File Access
-- Unsafe Extraction
-
----
-
-# ⚡ Performance Optimization
+## ⚡ Performance Optimization
 
 Designed for websites with thousands of posts.
 
-Optimizations include:
-
-## Efficient Database Queries
-
+### Efficient Database Queries
 - Indexed searches
 - Limited result sets
 - Optimized WHERE clauses
 - Lazy loading
 
----
-
-## Batch Processing
-
+### Batch Processing
 Large exports are processed in manageable batches to reduce memory usage and execution time.
 
----
-
-## AJAX Operations
-
+### AJAX Operations
 Long-running tasks use asynchronous processing to avoid browser timeouts and improve user experience.
 
----
+### Memory Optimization
+The plugin minimizes memory usage by streaming data, releasing temporary variables, and processing files incrementally.
 
-## Memory Optimization
-
-The plugin minimizes memory usage by:
-
-- Streaming data
-- Releasing temporary variables
-- Processing files incrementally
-
----
-
-## Compression
-
+### Compression
 Generated backups are compressed into ZIP archives to reduce storage requirements and download time.
 
----
-
-## Caching
-
+### Caching
 Where appropriate, frequently accessed data is cached to improve performance and reduce redundant database queries.
 
 ---
 
-# 🎨 Coding Standards
+## 🎨 Coding Standards
 
 The project follows:
-
 - WordPress Coding Standards
 - PSR Naming Practices (where compatible)
 - PHPDoc Documentation
 - Semantic Versioning
 - Modular File Organization
 
----
-
-# 🧩 Hooks & Actions
+### 🧩 Hooks & Actions
 
 Developers can extend the plugin using WordPress hooks.
 
-Example action hooks:
-
+**Example action hooks:**
 ```php
 do_action( 'pbrp_before_export', $posts );
-
 do_action( 'pbrp_after_export', $archive );
-
 do_action( 'pbrp_before_import', $package );
-
 do_action( 'pbrp_after_import', $result );
-
 do_action( 'pbrp_before_restore', $backup );
-
 do_action( 'pbrp_after_restore', $result );
 ```
 
----
-
-# 🔄 Filters
+### 🔄 Filters
 
 Customize plugin behavior using filters.
 
-Example:
-
+**Example filters:**
 ```php
 apply_filters( 'pbrp_export_posts', $posts );
-
 apply_filters( 'pbrp_export_filename', $filename );
-
 apply_filters( 'pbrp_backup_directory', $directory );
-
 apply_filters( 'pbrp_import_options', $options );
-
 apply_filters( 'pbrp_restore_result', $result );
 ```
 
----
+### 🌍 Internationalization (i18n)
 
-# 🌍 Internationalization (i18n)
-
-The plugin is translation-ready.
-
-Features include:
-
+The plugin is translation-ready with:
 - Text Domain Support
 - POT File Generation
 - Language Files
 - RTL Compatibility
 - UTF-8 Encoding
 
-Supported by WordPress localization functions.
-
----
-
-# 🔧 Developer Customization
+### 🔧 Developer Customization
 
 Developers can easily:
-
 - Add custom export filters
 - Extend backup formats
 - Integrate cloud storage
@@ -1338,12 +903,9 @@ Developers can easily:
 
 The modular architecture is designed to support future enhancements without modifying core plugin files.
 
----
-
-# 📝 Logging System
+### 📝 Logging System
 
 The built-in logging system records important operations such as:
-
 - Backup Creation
 - Backup Deletion
 - Export Events
@@ -1355,24 +917,18 @@ The built-in logging system records important operations such as:
 
 Logs assist with troubleshooting and auditing.
 
----
-
-# 🧪 Testing Recommendations
+### 🧪 Testing Recommendations
 
 Before deploying to production, it is recommended to:
+- Test exports with various filters
+- Verify backup integrity
+- Restore backups on a staging environment
+- Validate media and metadata restoration
+- Review activity logs for warnings or errors
 
-- Test exports with various filters.
-- Verify backup integrity.
-- Restore backups on a staging environment.
-- Validate media and metadata restoration.
-- Review activity logs for warnings or errors.
-
----
-
-# 🚀 Future Developer APIs
+### 🚀 Future Developer APIs
 
 Planned enhancements include:
-
 - REST API Endpoints
 - WP-CLI Commands
 - Scheduled Backups
@@ -1383,313 +939,141 @@ Planned enhancements include:
 
 ---
 
-```markdown
-# ❓ Frequently Asked Questions (FAQ)
+## ❓ Frequently Asked Questions (FAQ)
 
-Below are some of the most commonly asked questions about **Post Backup & Restore Pro**.
-
----
-
-## 1. What does this plugin do?
-
+### 1. What does this plugin do?
 Post Backup & Restore Pro allows you to export, backup, import, migrate, and restore WordPress posts along with their associated data such as categories, tags, featured images, attachments, metadata, and custom post types.
 
----
-
-## 2. Does this plugin replace the default WordPress Export Tool?
-
+### 2. Does this plugin replace the default WordPress Export Tool?
 Yes. It provides a far more powerful and flexible alternative with advanced filtering, selective exports, metadata preservation, ZIP packaging, and restore capabilities.
 
----
+### 3. Can I export only specific posts?
+Yes. You can filter posts using keywords, categories, tags, authors, date range, post status, and post type.
 
-## 3. Can I export only specific posts?
+### 4. Are featured images included?
+Yes. Featured images can be exported and restored automatically.
 
-Yes.
+### 5. Does it export media attachments?
+Yes. Media attachments associated with exported posts are included in the backup package (if enabled).
 
-You can filter posts using:
+### 6. Can I restore backups on another website?
+Absolutely. The generated backup package is designed to be portable between compatible WordPress installations.
 
-- Keywords
-- Categories
-- Tags
-- Authors
-- Date Range
-- Post Status
-- Post Type
+### 7. Does the plugin support Custom Post Types?
+Yes. Any registered custom post type can be exported and restored.
 
----
+### 8. Will categories and tags be preserved?
+Yes. The plugin restores categories, tags, custom taxonomies, and parent relationships.
 
-## 4. Are featured images included?
+### 9. Does it export custom fields?
+Yes. Custom fields stored in `wp_postmeta` are preserved.
 
-Yes.
+### 10. Is WooCommerce supported?
+Current version supports standard WordPress Posts, Pages, and Registered Custom Post Types. Future versions will include dedicated WooCommerce export and restore support.
 
-Featured images can be exported and restored automatically.
+### 11. Is multisite supported?
+Current release focuses on single-site installations. Multisite support is planned for a future version.
 
----
+### 12. Can I restore individual posts?
+Yes. Depending on your selected restore options, you can restore all posts or only selected content.
 
-## 5. Does it export media attachments?
+### 13. Does it overwrite existing posts?
+You control the behavior. Restore options may include Skip Existing, Update Existing, Replace Existing, or Create Duplicate.
 
-Yes.
+### 14. Is there a file size limit?
+The practical limit depends on your hosting environment including PHP Memory Limit, Upload Max Filesize, Post Max Size, and Execution Time. Large websites are processed using optimized batch operations where possible.
 
-Media attachments associated with exported posts are included in the backup package (if enabled).
+### 15. Does the plugin work with shared hosting?
+Yes. It is designed to work efficiently on most shared hosting providers while also scaling to VPS and dedicated servers.
 
----
+### 16. Is the plugin secure?
+Yes. Security features include Nonce Verification, Capability Checks, Input Sanitization, Output Escaping, Secure File Validation, SQL Injection Protection, CSRF Protection, and XSS Prevention.
 
-## 6. Can I restore backups on another website?
+### 17. Can I schedule automatic backups?
+Not in the initial release. Automatic scheduled backups are planned for a future update.
 
-Absolutely.
+### 18. Is the plugin translation ready?
+Yes. The plugin follows WordPress internationalization standards and supports translation files.
 
-The generated backup package is designed to be portable between compatible WordPress installations.
+### 19. Does it work with modern WordPress themes?
+Yes. The plugin operates entirely within the WordPress Admin Dashboard and is independent of your active theme.
 
----
-
-## 7. Does the plugin support Custom Post Types?
-
-Yes.
-
-Any registered custom post type can be exported and restored.
-
----
-
-## 8. Will categories and tags be preserved?
-
-Yes.
-
-The plugin restores:
-
-- Categories
-- Tags
-- Custom Taxonomies
-- Parent Relationships
-
----
-
-## 9. Does it export custom fields?
-
-Yes.
-
-Custom fields stored in `wp_postmeta` are preserved.
-
----
-
-## 10. Is WooCommerce supported?
-
-Current version:
-
-- Standard WordPress Posts
-- Pages
-- Registered Custom Post Types
-
-Future versions will include dedicated WooCommerce export and restore support.
-
----
-
-## 11. Is multisite supported?
-
-Current release focuses on single-site installations.
-
-Multisite support is planned for a future version.
-
----
-
-## 12. Can I restore individual posts?
-
-Yes.
-
-Depending on your selected restore options, you can restore all posts or only selected content.
-
----
-
-## 13. Does it overwrite existing posts?
-
-You control the behavior.
-
-Restore options may include:
-
-- Skip Existing
-- Update Existing
-- Replace Existing
-- Create Duplicate
-
----
-
-## 14. Is there a file size limit?
-
-The practical limit depends on your hosting environment, including:
-
-- PHP Memory Limit
-- Upload Max Filesize
-- Post Max Size
-- Execution Time
-
-Large websites are processed using optimized batch operations where possible.
-
----
-
-## 15. Does the plugin work with shared hosting?
-
-Yes.
-
-It is designed to work efficiently on most shared hosting providers while also scaling to VPS and dedicated servers.
-
----
-
-## 16. Is the plugin secure?
-
-Yes.
-
-Security features include:
-
-- Nonce Verification
-- Capability Checks
-- Input Sanitization
-- Output Escaping
-- Secure File Validation
-- SQL Injection Protection
-- CSRF Protection
-- XSS Prevention
-
----
-
-## 17. Can I schedule automatic backups?
-
-Not in the initial release.
-
-Automatic scheduled backups are planned for a future update.
-
----
-
-## 18. Is the plugin translation ready?
-
-Yes.
-
-The plugin follows WordPress internationalization standards and supports translation files.
-
----
-
-## 19. Does it work with modern WordPress themes?
-
-Yes.
-
-The plugin operates entirely within the WordPress Admin Dashboard and is independent of your active theme.
-
----
-
-## 20. Where are backup files stored?
-
+### 20. Where are backup files stored?
 Backup archives are stored in a secure plugin-managed directory with restricted direct access, depending on your plugin configuration.
 
----
+### 21. Can I delete old backups?
+Yes. Backup History provides options to download or permanently delete stored backup archives.
 
-## 21. Can I delete old backups?
-
-Yes.
-
-Backup History provides options to download or permanently delete stored backup archives.
-
----
-
-## 22. Will my SEO metadata be exported?
-
+### 22. Will my SEO metadata be exported?
 If stored as post metadata, SEO-related data can be included in the export package and restored during import.
 
----
+### 23. Does the plugin support large websites?
+Yes. It has been designed with performance optimizations such as batch processing, efficient queries, and ZIP compression to handle large content libraries.
 
-## 23. Does the plugin support large websites?
-
-Yes.
-
-It has been designed with performance optimizations such as batch processing, efficient queries, and ZIP compression to handle large content libraries.
+### 24. Is developer customization possible?
+Absolutely. Developers can extend functionality using custom hooks, filters, and modular classes without modifying the core plugin.
 
 ---
 
-## 24. Is developer customization possible?
+## 🛠 Troubleshooting
 
-Absolutely.
+### Export Process Stops Unexpectedly
 
-Developers can extend functionality using custom hooks, filters, and modular classes without modifying the core plugin.
-
----
-
-# 🛠 Troubleshooting
-
-## Export Process Stops Unexpectedly
-
-Possible causes:
-
+**Possible causes:**
 - PHP Memory Limit
 - Execution Time Limit
 - Hosting Restrictions
 
-### Recommended Solution
-
+**Recommended Solution:**
 - Increase PHP Memory Limit
 - Increase Max Execution Time
 - Export in smaller batches
 - Contact your hosting provider if limits cannot be adjusted
 
----
+### Backup ZIP Cannot Be Downloaded
 
-## Backup ZIP Cannot Be Downloaded
-
-Possible reasons:
-
+**Possible reasons:**
 - Incorrect file permissions
 - Backup generation interrupted
 - Server storage full
 
-### Solution
-
+**Solution:**
 - Verify upload directory permissions
 - Ensure sufficient disk space
 - Regenerate the backup
 
----
-
-## Import Fails
+### Import Fails
 
 Check the following:
-
 - Backup ZIP is not corrupted
 - File upload completed successfully
 - WordPress version is compatible
 - PHP upload limits are sufficient
 
----
+### Images Are Missing
 
-## Images Are Missing
-
-Possible causes:
-
+**Possible causes:**
 - Media export disabled
 - Attachment files removed
 - Upload directory permissions
 
-### Solution
+**Solution:** Re-export the backup with media included and restore again.
 
-Re-export the backup with media included and restore again.
-
----
-
-## Restore Produces Duplicate Posts
+### Restore Produces Duplicate Posts
 
 Choose the appropriate duplicate handling option during the restore process, such as updating or skipping existing posts.
 
----
-
-## Permission Errors
+### Permission Errors
 
 Ensure your account has administrator privileges and that your server file permissions allow reading and writing in the backup directory.
 
 ---
 
-# 📜 Changelog
+## 📜 Changelog
 
-## Version 1.0.0
+### Version 1.0.0 - Initial Stable Release
 
-### Initial Stable Release
-
-### Added
-
+**Added:**
 - Plugin Dashboard
 - Export Posts
 - Import Posts
@@ -1713,16 +1097,14 @@ Ensure your account has administrator privileges and that your server file permi
 - Logging System
 - Translation Support
 
-### Improved
-
+**Improved:**
 - Native WordPress UI
 - Responsive Layout
 - Performance Optimization
 - Code Organization
 - Accessibility
 
-### Security
-
+**Security:**
 - Nonce Verification
 - Capability Checks
 - File Validation
@@ -1731,64 +1113,48 @@ Ensure your account has administrator privileges and that your server file permi
 
 ---
 
-# 🗺 Roadmap
+## 🗺 Roadmap
 
 The following features are planned for future releases.
 
-## Version 1.1
-
+### Version 1.1
 - Scheduled Backups
 - Backup Notifications
 - Improved Restore Wizard
 - Backup Encryption
 - Cloud Storage Preparation
 
----
-
-## Version 1.2
-
+### Version 1.2
 - Google Drive Integration
 - Dropbox Integration
 - Microsoft OneDrive Integration
 - Amazon S3 Support
 
----
-
-## Version 1.3
-
+### Version 1.3
 - WP-CLI Commands
 - REST API
 - Backup Automation
 - Background Processing
 - Queue System
 
----
-
-## Version 1.4
-
+### Version 1.4
 - WooCommerce Product Backup
 - Orders Export
 - Customers Export
 - Coupons Export
 - Product Images
 
----
-
-## Version 1.5
-
+### Version 1.5
 - Multisite Support
 - Network Dashboard
 - Site Migration
 - Cross-Site Restore
 
----
-
-## Future Vision
+### Future Vision
 
 The long-term goal of **Post Backup & Restore Pro** is to become a complete WordPress migration and disaster recovery platform with enterprise-level reliability, automation, and cloud integration.
 
 Future enhancements may include:
-
 - Incremental Backups
 - Differential Backups
 - Cloud Synchronization
@@ -1804,7 +1170,7 @@ Future enhancements may include:
 
 ---
 
-# 📢 Release Policy
+## 📢 Release Policy
 
 The plugin follows **Semantic Versioning (SemVer)**.
 
@@ -1816,7 +1182,7 @@ The plugin follows **Semantic Versioning (SemVer)**.
 
 ---
 
-# 🐞 Reporting Bugs
+## 🐞 Reporting Bugs
 
 If you encounter a bug:
 
@@ -1827,102 +1193,74 @@ If you encounter a bug:
 
 ---
 
-# 💡 Feature Requests
+## 💡 Feature Requests
 
 Feature suggestions are always welcome.
 
 Please include:
-
-- A clear description of the requested feature.
-- The problem it solves.
-- Example use cases.
-- Expected behavior.
-- Optional mockups or screenshots.
+- A clear description of the requested feature
+- The problem it solves
+- Example use cases
+- Expected behavior
+- Optional mockups or screenshots
 
 This helps prioritize and implement improvements more effectively.
 
 ---
 
-````markdown
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated. Whether you're fixing bugs, improving documentation, enhancing the user interface, or adding new features, your help makes this project better for everyone.
 
-## Development Workflow
+### Development Workflow
 
 1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/amazing-feature
-```
-
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
 3. Make your changes
-
 4. Follow WordPress Coding Standards
-
 5. Test thoroughly
-
-6. Commit your changes
-
-```bash
-git commit -m "Add amazing feature"
-```
-
-7. Push your branch
-
-```bash
-git push origin feature/amazing-feature
-```
-
+6. Commit your changes:
+   ```bash
+   git commit -m "Add amazing feature"
+   ```
+7. Push your branch:
+   ```bash
+   git push origin feature/amazing-feature
+   ```
 8. Open a Pull Request
 
----
+### 📐 Coding Standards
 
-# 📐 Coding Standards
-
-Please follow the following standards when contributing.
-
-## PHP
-
+**PHP:**
 - WordPress Coding Standards
 - PHPDoc comments
 - Object-Oriented Programming
 - Secure coding practices
 
----
-
-## JavaScript
-
+**JavaScript:**
 - Modern ES6+
 - Modular architecture
 - Avoid global variables
 - Proper event delegation
 
----
-
-## CSS
-
+**CSS:**
 - Modular CSS
 - Responsive design
 - Mobile-first approach
 - Avoid inline styles
 
----
-
-## HTML
-
+**HTML:**
 - Semantic HTML5
 - Accessibility-friendly
 - Valid markup
 - WordPress admin compatibility
 
----
-
-# 🧪 Testing
+### 🧪 Testing
 
 Before submitting your contribution, verify:
-
 - Plugin activates correctly
 - Plugin deactivates correctly
 - Export functionality works
@@ -1936,12 +1274,9 @@ Before submitting your contribution, verify:
 - No console errors
 - No accessibility issues
 
----
-
-# 📋 Issue Reporting
+### 📋 Issue Reporting
 
 When reporting bugs, please include:
-
 - WordPress Version
 - PHP Version
 - Plugin Version
@@ -1955,59 +1290,27 @@ When reporting bugs, please include:
 
 ---
 
-# 💬 Support
+## 💬 Support
 
-Need help?
+Need help? We're happy to assist.
 
-We're happy to assist.
+**Documentation:** Please read the documentation before opening a support request.
 
-## Documentation
+**GitHub Issues:** Report bugs and request features at [GitHub Repository](https://github.com/iAtifSyed/post-backup-restore-pro)
 
-Please read the documentation before opening a support request.
+**Email Support:** For professional support, licensing, or business inquiries: atifsyedlive@gmail.com
 
----
-
-## GitHub Issues
-
-Report bugs and request features:
-
-**GitHub Repository**
-
-https://github.com/iAtifSyed/post-backup-restore-pro
+**Feature Requests:** Open a GitHub Issue describing the problem, suggested solution, use case, and expected behavior.
 
 ---
 
-## Email Support
-
-For professional support, licensing, or business inquiries:
-
-**atifsyedlive@gmail.com**
-
----
-
-## Feature Requests
-
-Have an idea?
-
-Open a GitHub Issue describing:
-
-- Problem
-- Suggested solution
-- Use case
-- Expected behavior
-
----
-
-# 🔒 Security Policy
+## 🔒 Security Policy
 
 If you discover a security vulnerability, please **do not** publish it publicly.
 
-Instead, contact:
-
-**atifsyedlive@gmail.com**
+Instead, contact: atifsyedlive@gmail.com
 
 Please include:
-
 - Vulnerability description
 - Reproduction steps
 - Potential impact
@@ -2017,107 +1320,52 @@ Responsible disclosure is appreciated.
 
 ---
 
-# 🌍 Compatibility
+## 🌍 Compatibility
 
-The plugin is designed to work with:
+**WordPress:** 6.2+, 6.3+, 6.4+, 6.5+, and future compatible versions.
 
-## WordPress
+**PHP:** 7.4, 8.0, 8.1, 8.2, 8.3.
 
-- WordPress 6.2+
-- WordPress 6.3+
-- WordPress 6.4+
-- WordPress 6.5+
-- Future compatible versions
+**Browsers:** Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera.
+
+**Operating Systems:** Windows, macOS, Linux.
 
 ---
 
-## PHP
+## 🌐 Translation
 
-- PHP 7.4
-- PHP 8.0
-- PHP 8.1
-- PHP 8.2
-- PHP 8.3
-
----
-
-## Browsers
-
-Supported browsers include:
-
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Edge
-- Safari
-- Opera
-
----
-
-## Operating Systems
-
-- Windows
-- macOS
-- Linux
-
----
-
-# 🌐 Translation
-
-The plugin is translation-ready.
-
-Supported using standard WordPress localization.
+The plugin is translation-ready using standard WordPress localization.
 
 Example language files:
-
 ```
 languages/
-
 post-backup-restore-pro.pot
-
 post-backup-restore-pro-en_US.po
-
 post-backup-restore-pro-fr_FR.po
-
 post-backup-restore-pro-es_ES.po
 ```
 
 ---
 
-# 📦 Third-Party Libraries
+## 📦 Third-Party Libraries
 
-This plugin primarily relies on WordPress Core APIs.
-
-Where applicable, third-party libraries will be documented with their respective licenses.
+This plugin primarily relies on WordPress Core APIs. Where applicable, third-party libraries will be documented with their respective licenses.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the **GNU General Public License v2.0 or later (GPL-2.0+)**.
 
-You are free to:
+You are free to use, modify, distribute, and fork under the terms of the GPL license.
 
-- Use
-- Modify
-- Distribute
-- Fork
-
-under the terms of the GPL license.
-
-For more information, see:
-
-LICENSE
-
-or visit:
-
-https://www.gnu.org/licenses/gpl-2.0.html
+For more information, see [LICENSE](LICENSE) or visit https://www.gnu.org/licenses/gpl-2.0.html
 
 ---
 
-# 🙏 Credits
+## 🙏 Credits
 
 Special thanks to:
-
 - WordPress Community
 - WordPress Core Contributors
 - PHP Community
@@ -2131,16 +1379,13 @@ whose work and dedication continue to improve the WordPress ecosystem.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-## Atif Syed
+### Atif Syed
 
-**Full Stack WordPress Developer**
+**Full Stack WordPress Developer** • Ecommerce Specialist • Plugin Architect • WooCommerce Expert • UI/UX Engineer • Security-First Developer
 
-Ecommerce Specialist • Plugin Architect • WooCommerce Expert • UI/UX Engineer • Security-First Developer
-
-### Expertise
-
+**Expertise:**
 - WordPress Plugin Development
 - WooCommerce Development
 - Custom PHP Applications
@@ -2152,91 +1397,21 @@ Ecommerce Specialist • Plugin Architect • WooCommerce Expert • UI/UX Engin
 - Performance Optimization
 - Security Hardening
 
----
+**Portfolio:** https://iatifsyed.github.io/
 
-### Portfolio
+**GitHub:** https://github.com/iAtifSyed
 
-https://iatifsyed.github.io/
-
----
-
-### GitHub
-
-https://github.com/iAtifSyed
+**Email:** atifsyedlive@gmail.com
 
 ---
 
-### Email
-
-atifsyedlive@gmail.com
-
----
-
-# ⭐ Support the Project
+## ⭐ Support the Project
 
 If this project has helped you:
-
 - ⭐ Star the repository on GitHub
 - 🐛 Report bugs
 - 💡 Suggest new features
 - 🔀 Submit pull requests
 - 📢 Share it with the WordPress community
 
-Your support helps improve the project and motivates future development.
-
----
-
-# 📅 Version Information
-
-| Property | Value |
-|----------|--------|
-| Plugin Name | Post Backup & Restore Pro |
-| Current Version | 1.0.0 |
-| Stable Release | Yes |
-| License | GPL v2 or later |
-| Requires PHP | 7.4+ |
-| Requires WordPress | 6.2+ |
-| Text Domain | post-backup-restore-pro |
-| Translation Ready | Yes |
-| Responsive | Yes |
-| Accessibility Ready | Yes |
-
----
-
-# 🚀 Future Vision
-
-Our mission is to make **Post Backup & Restore Pro** the most reliable, secure, and developer-friendly WordPress content migration solution available.
-
-Future releases will focus on:
-
-- Cloud Backup Providers
-- Scheduled & Incremental Backups
-- One-Click Site Migration
-- WP-CLI Integration
-- REST API
-- WooCommerce Migration
-- Enterprise Backup Management
-- Remote Backup Monitoring
-- Team Collaboration Features
-- AI-Assisted Backup Analysis
-
----
-
-# ❤️ Thank You
-
-Thank you for choosing **Post Backup & Restore Pro**.
-
-Whether you're managing a personal blog, a business website, or hundreds of client installations, we hope this plugin makes your backup and migration workflow faster, safer, and more reliable.
-
----
-
-<p align="center">
-
-**Made with ❤️ by Atif Syed**
-
-*Full Stack WordPress Developer • Plugin Architect • Ecommerce Specialist*
-
-⭐ If you like this project, don't forget to star the repository!
-
-</p>
-````
+Your support helps
