@@ -1,3 +1,122 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 500" width="1544" height="500">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c23152;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1544" height="500" fill="url(#bgGradient)"/>
+
+  <!-- Decorative Circles -->
+  <circle cx="200" cy="400" r="150" fill="#e94560" opacity="0.05"/>
+  <circle cx="1300" cy="100" r="200" fill="#ff6b6b" opacity="0.05"/>
+  <circle cx="750" cy="250" r="250" fill="#ffffff" opacity="0.03"/>
+
+  <!-- Decorative Lines -->
+  <line x1="0" y1="350" x2="1544" y2="350" stroke="url(#accentGradient)" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="355" x2="1544" y2="355" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+
+  <!-- Shield Icon (Left Side) -->
+  <g transform="translate(250, 170)" filter="url(#shadow)">
+    <!-- Shield Body -->
+    <path d="M0 40 L0 120 L50 160 L100 120 L100 40 L50 0 Z" 
+          fill="url(#shieldGradient)" 
+          stroke="#ffffff" 
+          stroke-width="2"/>
+    <!-- Shield Inner -->
+    <path d="M10 45 L10 115 L50 150 L90 115 L90 45 L50 10 Z" 
+          fill="#ffffff" 
+          opacity="0.1"/>
+    <!-- Backup Icon -->
+    <path d="M35 60 L65 60 L65 80 L75 70 L50 50 L25 70 L35 80 Z" 
+          fill="#ffffff"/>
+    <rect x="35" y="90" width="30" height="10" rx="2" fill="#ffffff"/>
+    <circle cx="50" cy="105" r="5" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#shadow)">
+    Post Backup
+  </text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#accentGradient)" filter="url(#shadow)">
+    &amp; Restore Pro
+  </text>
+
+  <!-- Tagline -->
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="20" fill="#a8b2d1">
+    Professional WordPress Post Backup, Export, Import &amp; Restore Solution
+  </text>
+
+  <!-- Badges Container -->
+  <g transform="translate(400, 320)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="120" height="30" rx="15" fill="#e94560" opacity="0.9"/>
+    <text x="60" y="20" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      ENTERPRISE
+    </text>
+
+    <!-- Badge 2 -->
+    <rect x="135" y="0" width="110" height="30" rx="15" fill="#2ecc71" opacity="0.9"/>
+    <text x="190" y="20" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      SECURE
+    </text>
+
+    <!-- Badge 3 -->
+    <rect x="260" y="0" width="130" height="30" rx="15" fill="#3498db" opacity="0.9"/>
+    <text x="325" y="20" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      PERFORMANT
+    </text>
+
+    <!-- Badge 4 -->
+    <rect x="405" y="0" width="120" height="30" rx="15" fill="#f39c12" opacity="0.9"/>
+    <text x="465" y="20" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      RESPONSIVE
+    </text>
+  </g>
+
+  <!-- WordPress Logo (Right Side) -->
+  <g transform="translate(1300, 200)" opacity="0.3">
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <text x="60" y="68" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      WP
+    </text>
+  </g>
+
+  <!-- Version Badge -->
+  <g transform="translate(400, 420)">
+    <rect x="0" y="0" width="200" height="35" rx="17.5" fill="#ffffff" opacity="0.1" stroke="#ffffff" stroke-width="1"/>
+    <text x="100" y="23" font-family="Arial, sans-serif" font-size="14" fill="#a8b2d1" text-anchor="middle">
+      Version 1.0.0
+    </text>
+  </g>
+
+  <!-- Bottom Decorative Line -->
+  <line x1="400" y1="470" x2="1140" y2="470" stroke="url(#accentGradient)" stroke-width="3" opacity="0.5"/>
+</svg>
+
 # Post Backup & Restore Pro
 
 <p align="center">
